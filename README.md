@@ -16,4 +16,10 @@ Here are some ideas to get you started:
 -->
 
 
-![Snake animation](https://github.com/lianastavrou/lianastavrou/blob/output/github-contribution-grid-snake.svg)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lianastavrou/lianastavrou/output/github-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/lianastavrou/lianastavrou/output/github-snake.svg" alt="github snake" />
+  </picture>
+</p>
+
