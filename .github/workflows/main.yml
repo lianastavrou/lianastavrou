@@ -1,9 +1,9 @@
-name: Generate GitHub Snake
+name: Generate GitHub Snake GIF
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
-  workflow_dispatch:
 
 jobs:
   generate:
@@ -13,8 +13,6 @@ jobs:
         with:
           github_user_name: lianastavrou
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
             dist/github-snake.gif
       - uses: crazy-max/ghaction-github-pages@v3
         with:
